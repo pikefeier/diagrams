@@ -1,9 +1,166 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T09:17:35.818Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="soTWJSfje1xKe-Puviyp" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T13:04:33.941Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="LCq5CjWjZBR85-aOZVPm" version="14.5.3" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1717" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1974" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-1" value="client_A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85CEFF;" vertex="1" parent="1">
+          <mxGeometry x="10" y="120" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b-PyfVtP-A9ZUPwfD-2" target="dF-b-PyfVtP-A9ZUPwfD-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="180" />
+              <mxPoint x="280" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-2" value="nginx&lt;br&gt;ip:port" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="dF-b-PyfVtP-A9ZUPwfD-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="160" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-7" value="client_B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#57D8FF;" vertex="1" parent="1">
+          <mxGeometry x="10" y="180" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FF713D;" edge="1" parent="1" target="dF-b-PyfVtP-A9ZUPwfD-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="260" as="sourcePoint" />
+            <mxPoint x="140" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-12" value="client_C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9E66;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-14" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.014;exitY=0.418;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dF-b-PyfVtP-A9ZUPwfD-1" target="dF-b-PyfVtP-A9ZUPwfD-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="210" as="sourcePoint" />
+            <mxPoint x="170" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="137" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-16" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-17" value="服务1&lt;br&gt;ip1:port1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-18" value="&lt;span&gt;服务2&lt;br&gt;&lt;/span&gt;ip2:port2&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="175" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-19" value="&lt;span&gt;服务3&lt;br&gt;&lt;/span&gt;ip3:port3&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-22" value="服务器对外不暴露具体地址、端口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-25" value="" style="endArrow=classic;html=1;exitX=0.99;exitY=0.644;exitDx=0;exitDy=0;entryX=0.115;entryY=0.501;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;fillColor=#FF866E;strokeColor=#FF7E75;" edge="1" parent="1" source="dF-b-PyfVtP-A9ZUPwfD-2" target="dF-b-PyfVtP-A9ZUPwfD-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="310" as="sourcePoint" />
+            <mxPoint x="140.71067811865476" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-28" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-29" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-33" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.424;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.11;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dF-b-PyfVtP-A9ZUPwfD-16" target="dF-b-PyfVtP-A9ZUPwfD-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="180" as="sourcePoint" />
+            <mxPoint x="360" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fillColor=#FF866E;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="dF-b-PyfVtP-A9ZUPwfD-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="170" as="sourcePoint" />
+            <mxPoint x="378" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-39" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9E66;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-40" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9E66;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-43" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#52F3FF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-45" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#52F3FF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-46" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#52F3FF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-47" value="" style="endArrow=classic;html=1;exitX=-0.002;exitY=0.426;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.11;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dF-b-PyfVtP-A9ZUPwfD-16" target="dF-b-PyfVtP-A9ZUPwfD-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="190.55999999999995" as="sourcePoint" />
+            <mxPoint x="389.9000000000001" y="150.5200000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-48" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#52F3FF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-49" value="" style="endArrow=none;html=1;strokeColor=#FF7E75;fillColor=#FF866E;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="340" as="sourcePoint" />
+            <mxPoint x="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#52F3FF;" vertex="1" parent="1">
+          <mxGeometry width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-30" value="Nginx反向代理、负载均衡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-55" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;fillColor=#52F3FF;rotation=-190;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="110" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-62" value="Nginx" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;fillColor=#52F3FF;" vertex="1" parent="1">
+          <mxGeometry y="380" width="360" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-63" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;正向代理&lt;/span&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="dF-b-PyfVtP-A9ZUPwfD-62">
+          <mxGeometry y="20" width="120" height="460" as="geometry">
+            <mxRectangle y="20" width="30" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-80" value="&lt;span&gt;如上图1和2，在不知道&lt;/span&gt;&lt;br&gt;&lt;span&gt;服务器的具体地址的时候，&lt;/span&gt;&lt;br&gt;&lt;span&gt;先访问一个中间代理，然后&lt;/span&gt;&lt;br&gt;&lt;span&gt;根据代理配置，访问到具体的服务器。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#52F3FF;" vertex="1" parent="dF-b-PyfVtP-A9ZUPwfD-63">
+          <mxGeometry x="-776" y="145" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-81" value="上图的1和2请求，" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#52F3FF;" vertex="1" parent="dF-b-PyfVtP-A9ZUPwfD-63">
+          <mxGeometry x="5" y="30" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-64" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;反向代理&lt;/span&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="dF-b-PyfVtP-A9ZUPwfD-62">
+          <mxGeometry x="120" y="20" width="120" height="460" as="geometry">
+            <mxRectangle x="120" y="20" width="30" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-82" value="如上图3，在知道服务器的具体地址的时候，这时候nignx只是做了" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#52F3FF;" vertex="1" parent="dF-b-PyfVtP-A9ZUPwfD-64">
+          <mxGeometry x="5" y="30" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-65" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;静态服务器&lt;/span&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="dF-b-PyfVtP-A9ZUPwfD-62">
+          <mxGeometry x="240" y="20" width="120" height="460" as="geometry">
+            <mxRectangle x="240" y="20" width="30" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-66" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;负载均衡&lt;/span&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="120" height="460" as="geometry">
+            <mxRectangle x="360" y="400" width="80" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b-PyfVtP-A9ZUPwfD-91" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF2BE3;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
