@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-04T10:11:54.235Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="i7OFfoCTxoE_9nJYg-m9" version="14.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T00:32:40.937Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="znVe9LUuD0eZSBzUZwWj" version="14.5.4" type="github">
   <diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
     <mxGraphModel dx="1664" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -94,6 +94,9 @@
         <mxCell id="JrOrqtDxngOUvOLZsiqG-5" value="2021年4月1日" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EEFF54;" vertex="1" parent="1">
           <mxGeometry x="10" y="500" width="160" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="JrOrqtDxngOUvOLZsiqG-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JrOrqtDxngOUvOLZsiqG-6" target="JrOrqtDxngOUvOLZsiqG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JrOrqtDxngOUvOLZsiqG-6" value="&lt;span&gt;jvm调优&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#FF120A;" vertex="1" parent="1">
           <mxGeometry x="230" y="690" width="75" height="50" as="geometry" />
         </mxCell>
@@ -106,11 +109,14 @@
         <mxCell id="JrOrqtDxngOUvOLZsiqG-8" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="333" y="650" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="JrOrqtDxngOUvOLZsiqG-9" value="写一篇关于逃逸分析的博客" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF120A;" vertex="1" parent="1">
+        <mxCell id="JrOrqtDxngOUvOLZsiqG-9" value="写一篇关于逃逸分析的博客" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="357" y="660" width="152" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JrOrqtDxngOUvOLZsiqG-12" value="H:\kkb\video\第二十章 互联网项目实战\第2节&amp;nbsp;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=0;shadow=1;fontFamily=Verdana;strokeWidth=1;comic=0;" vertex="1" parent="1">
           <mxGeometry x="590" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JrOrqtDxngOUvOLZsiqG-14" value="写markdown，有目录结构和重点标红（可以是自己的理解）比较好用" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fontFamily=Verdana;strokeWidth=1;fillColor=#D5FFA6;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="685" width="127.5" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
