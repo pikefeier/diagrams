@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T05:58:18.113Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="v8xzeQaCMFQ5_dXl4FLO" version="14.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T09:11:26.134Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="xVLs_NmfywiYSERjps7g" version="14.5.4" type="github">
   <diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
     <mxGraphModel dx="1662" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -135,23 +135,6 @@
             <mxGeometry x="200" y="70" width="240" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="JrOrqtDxngOUvOLZsiqG-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFBFA;" vertex="1" parent="1">
-          <mxGeometry y="1120" width="560" height="480" as="geometry" />
-        </mxCell>
-        <mxCell id="JrOrqtDxngOUvOLZsiqG-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="JrOrqtDxngOUvOLZsiqG-28">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="1160" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JrOrqtDxngOUvOLZsiqG-28" value="AbstractApplicatonContext" style="whiteSpace=wrap;html=1;fillColor=#FFCB8F;" vertex="1" parent="1">
-          <mxGeometry x="15" y="1220" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JrOrqtDxngOUvOLZsiqG-30" value="ClassPathXmlApplicationContext" style="whiteSpace=wrap;html=1;fillColor=#FFCB8F;" vertex="1" parent="1">
-          <mxGeometry x="8" y="1120" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JrOrqtDxngOUvOLZsiqG-31" value="refresh()" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFBFA;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1180" width="60" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
